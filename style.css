@@ -14,7 +14,6 @@ body{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    border: 1px solid black
 }
 
 .headerlogo{
@@ -42,6 +41,25 @@ ul{
     display: flex;
     background-color: #1f2937;
     color: #f9faf8;
+    justify-content: space-around;
+}
+
+.hero .text{
+    font-size: 48px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    flex-wrap: wrap;
+    flex-grow: 0;
+    height: 300px;
+    justify-content: center;
+}
+
+.hero .text .secondary{
+    font-size: 18px;
+    font-weight: normal;
+    color: #e5e7eb
 }
 
 button{
@@ -50,4 +68,15 @@ button{
     padding: 10px;
     border: none;
     border-radius: 10px;
+    font-weight: bold;
+    flex-grow: 0;
+    width: 100px;
+    align-self: center;
+}
+
+.imgplace{
+    padding: 100px;
+    background-color: gray;
+    align-self: center;
+    justify-self: center;
 }
