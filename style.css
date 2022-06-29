@@ -61,7 +61,8 @@ ul{
 .hero .text .secondary{
     font-size: 18px;
     font-weight: normal;
-    color: #e5e7eb
+    color: #e5e7eb;
+    max-width: 500px;
 }
 
 button{
@@ -73,7 +74,7 @@ button{
     font-weight: bold;
     flex-grow: 0;
     width: 100px;
-    align-self: center;
+    align-self: flex-start;
 }
 
 .imgplace{
@@ -159,4 +160,44 @@ button{
 
 body .quote{
     align-self: center;
+}
+
+.call{
+    flex-direction: row;
+    display: flex;
+    padding: 40px;
+    margin: 150px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #f9faf8;
+}
+
+.call div{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    align-self: center;
+    justify-self: flex-start;
+    max-width: 500px;
+    font-size: 36px;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.call div div{
+    font-size: large;
+    font-weight: normal;
+}
+
+.call button{
+    justify-self: flex-end;
+    flex-shrink: 0;
+    /*border-color: ;*/
+    border-radius: 10px;
+    border: 5px solid white;
+    align-self: center;
+    font-size: 18px;
 }
