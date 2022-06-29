@@ -42,8 +42,9 @@ ul{
     display: flex;
     background-color: #1f2937;
     color: #f9faf8;
-    justify-content: space-around;
-    padding: 20px;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
 }
 
 .hero .text{
@@ -66,6 +67,7 @@ ul{
 }
 
 button{
+    margin-top: 10px;
     background-color: #3882f6;
     color: #f9faf8;
     padding: 10px;
@@ -73,7 +75,7 @@ button{
     border-radius: 10px;
     font-weight: bold;
     flex-grow: 0;
-    width: 100px;
+    width: 150px;
     align-self: flex-start;
 }
 
@@ -165,8 +167,8 @@ body .quote{
 .call{
     flex-direction: row;
     display: flex;
-    padding: 40px;
-    margin: 150px;
+    padding: 50px;
+    margin: 200px;
     justify-content: space-around;
     align-items: center;
     gap: 20px;
